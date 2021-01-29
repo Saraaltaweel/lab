@@ -42,7 +42,7 @@ else if(carModel<=2010){
 }
 
 document.write(orderDetails)
-document.getElementById("car").innerText=carType
+// document.getElementById("car").innerText=carType
 
 
 
