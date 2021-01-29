@@ -31,10 +31,10 @@ var userInputs = prompt('how many cars do you want?')
 var image=''; 
 
 for(var i = 0; i < userInputs; i++){
-  if(carType =='bmw' || 'mercedes' || 'honda' || 'rang rover'){
+  if(userInputs =='1' || '2' || '3' || '4'){
     image = image + '<img src="https://saudishift.com/wp-content/uploads/2015/10/maxresdefault-6.jpg">'
     console.log(image)
-  }else if(carType == 'ford' || 'shefrolat' || 'toyota'){
+  }else if(userInputs == '5' || '6' || '7' || userInputs >'7'){
     image = image + '<img src="https://saudishift.com/wp-content/uploads/2017/01/0150.jpg">'
     console.log(image)
  }
