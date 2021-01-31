@@ -14,7 +14,7 @@ else {
 var userInputs = prompt('how many cars do you want?')
 
 var image=''; 
-
+function car(){
 for(var i = 0; i < userInputs; i++){
   if(userInputs =='1' || '2' || '3' || '4'){
     image = image + '<img src="https://saudishift.com/wp-content/uploads/2015/10/maxresdefault-6.jpg">'
@@ -26,9 +26,9 @@ for(var i = 0; i < userInputs; i++){
 }
 document.write(image)
 
+}
 
-
-
+function model(){
 var carModel= prompt("what your favorite model?");
 // var carColor= prompt("what your favorite color?");
 
@@ -48,9 +48,9 @@ else if(carModel<=2010){
 document.write(orderDetails)
 // document.getElementById("car").innerText=carType
 
-
-
-
+}
+car();
+model();
 
 
 
