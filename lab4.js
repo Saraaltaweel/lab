@@ -1,13 +1,14 @@
 var carType= prompt("what your favorite car?","place your type");
 
-if (carType !=='bmw' && carType !=='mercedes' && carType !=='honda' && carType !=='rang rover' && carType !=='ford'
+while(carType !=='bmw' && carType !=='mercedes' && carType !=='honda' && carType !=='rang rover' && carType !=='ford'
 && carType !=='shefrolat' && carType !=='toyota'){
 
-  userOrder = prompt('please enter the correct item')
-} 
-else {
   carType= prompt("what your favorite car?","place your type");
-}
+  
+} 
+
+
+
 
 
 
