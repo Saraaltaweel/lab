@@ -1,9 +1,12 @@
 var carType= prompt("what your favorite car?","place your type");
 
-while(carType !=='bmw' && carType !=='mercedes' && carType !=='honda' && carType !=='rang rover' && carType !=='ford'
+if (carType !=='bmw' && carType !=='mercedes' && carType !=='honda' && carType !=='rang rover' && carType !=='ford'
 && carType !=='shefrolat' && carType !=='toyota'){
 
   userOrder = prompt('please enter the correct item')
+} 
+else {
+  carType= prompt("what your favorite car?","place your type");
 }
 
 
@@ -25,6 +28,7 @@ document.write(image)
 
 
 
+
 var carModel= prompt("what your favorite model?");
 // var carColor= prompt("what your favorite color?");
 
@@ -43,8 +47,6 @@ else if(carModel<=2010){
 
 document.write(orderDetails)
 // document.getElementById("car").innerText=carType
-
-
 
 
 
